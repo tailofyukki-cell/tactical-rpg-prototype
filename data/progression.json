@@ -1,0 +1,38 @@
+{
+  "gold": 300,
+  "expTable": {
+    "1": 100,
+    "2": 120,
+    "3": 150,
+    "4": 190,
+    "5": 240
+  },
+  "weaponRankBonuses": {
+    "D": {},
+    "C": { "accuracy": 2 },
+    "B": { "accuracy": 4, "attack": 1, "magic": 1 },
+    "A": { "accuracy": 6, "attack": 2, "magic": 2 }
+  },
+  "weaponInventory": {
+    "iron_sword": 1,
+    "guard_blade": 1,
+    "ash_spear": 1,
+    "hook_lance": 1,
+    "short_bow": 1,
+    "longbow": 1,
+    "oak_staff": 1,
+    "ember_rod": 1
+  },
+  "equipmentInventory": {
+    "armor": {
+      "guard_mail": 1,
+      "leather_vest": 1,
+      "linen_robes": 1
+    },
+    "accessory": {
+      "iron_badge": 1,
+      "swift_charm": 1,
+      "focus_ring": 1
+    }
+  }
+}

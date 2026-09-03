@@ -1,0 +1,95 @@
+{
+  "power_slash": {
+    "name": "Power Slash",
+    "type": "physical",
+    "mpCost": 4,
+    "power": 14,
+    "range": [1, 1],
+    "area": 0,
+    "accuracy": 85
+  },
+  "guard_break": {
+    "name": "Guard Break",
+    "type": "physical",
+    "mpCost": 6,
+    "power": 18,
+    "range": [1, 1],
+    "area": 0,
+    "accuracy": 78
+  },
+  "piercing_line": {
+    "name": "Piercing Line",
+    "type": "physical",
+    "mpCost": 5,
+    "power": 10,
+    "range": [1, 2],
+    "area": 0,
+    "accuracy": 80
+  },
+  "shadow_step": {
+    "name": "Shadow Step",
+    "type": "physical",
+    "mpCost": 6,
+    "power": 13,
+    "range": [1, 2],
+    "area": 0,
+    "accuracy": 88
+  },
+  "firebolt": {
+    "name": "Firebolt",
+    "type": "magic",
+    "mpCost": 5,
+    "power": 16,
+    "range": [2, 4],
+    "area": 0,
+    "accuracy": 92
+  },
+  "spark": {
+    "name": "Spark",
+    "type": "magic",
+    "mpCost": 7,
+    "power": 12,
+    "range": [2, 4],
+    "area": 1,
+    "friendlyFire": false,
+    "accuracy": 88
+  },
+  "flare": {
+    "name": "Flare",
+    "type": "magic",
+    "mpCost": 10,
+    "power": 18,
+    "range": [2, 4],
+    "area": 1,
+    "friendlyFire": false,
+    "accuracy": 84
+  },
+  "mend": {
+    "name": "Mend",
+    "type": "heal",
+    "mpCost": 5,
+    "power": 24,
+    "range": [1, 3],
+    "area": 0,
+    "accuracy": 100
+  },
+  "war_cry": {
+    "name": "War Cry",
+    "type": "physical",
+    "mpCost": 6,
+    "power": 12,
+    "range": [1, 1],
+    "area": 1,
+    "friendlyFire": false,
+    "accuracy": 82
+  },
+  "dark_mend": {
+    "name": "Dark Mend",
+    "type": "heal",
+    "mpCost": 5,
+    "power": 20,
+    "range": [1, 3],
+    "area": 0,
+    "accuracy": 100
+  }
+}

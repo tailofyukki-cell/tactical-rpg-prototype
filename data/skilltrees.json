@@ -1,0 +1,122 @@
+{
+  "Guard": {
+    "root": "guard_basics",
+    "nodes": {
+      "guard_basics": {
+        "name": "Guard Basics",
+        "description": "Foundation training for holding a battle line.",
+        "cost": 0,
+        "grants": { "defense": 1 },
+        "requires": []
+      },
+      "heavy_cut": {
+        "name": "Heavy Cut",
+        "description": "Unlocks Power Slash, a high-damage adjacent strike.",
+        "cost": 1,
+        "grantsSkill": "power_slash",
+        "requires": ["guard_basics"]
+      },
+      "shield_wall": {
+        "name": "Shield Wall",
+        "description": "Improves durability for front-line positioning.",
+        "cost": 1,
+        "grants": { "maxHp": 8, "defense": 1 },
+        "requires": ["guard_basics"]
+      },
+      "guard_break": {
+        "name": "Guard Break",
+        "description": "Unlocks a heavier sword technique for finishing armored targets.",
+        "cost": 2,
+        "grantsSkill": "guard_break",
+        "requires": ["heavy_cut"]
+      },
+      "iron_stance": {
+        "name": "Iron Stance",
+        "description": "Improves defense and accuracy.",
+        "cost": 2,
+        "grants": { "defense": 2, "accuracy": 2 },
+        "requires": ["shield_wall"]
+      }
+    }
+  },
+  "Scout": {
+    "root": "scout_basics",
+    "nodes": {
+      "scout_basics": {
+        "name": "Scout Basics",
+        "description": "Footwork training for evasive positioning.",
+        "cost": 0,
+        "grants": { "evasion": 1 },
+        "requires": []
+      },
+      "piercer": {
+        "name": "Piercer",
+        "description": "Unlocks Piercing Line for 1-2 range pressure.",
+        "cost": 1,
+        "grantsSkill": "piercing_line",
+        "requires": ["scout_basics"]
+      },
+      "quickstep": {
+        "name": "Quickstep",
+        "description": "Improves speed and movement for flanking.",
+        "cost": 1,
+        "grants": { "speed": 1, "movement": 1 },
+        "requires": ["scout_basics"]
+      },
+      "shadow_step": {
+        "name": "Shadow Step",
+        "description": "Unlocks a reliable strike for side attacks.",
+        "cost": 2,
+        "grantsSkill": "shadow_step",
+        "requires": ["quickstep"]
+      },
+      "hawk_eye": {
+        "name": "Hawk Eye",
+        "description": "Improves ranged accuracy and critical setup.",
+        "cost": 2,
+        "grants": { "accuracy": 4, "evasion": 1 },
+        "requires": ["piercer"]
+      }
+    }
+  },
+  "Mage": {
+    "root": "mage_basics",
+    "nodes": {
+      "mage_basics": {
+        "name": "Mage Basics",
+        "description": "Core spell discipline for higher magic output.",
+        "cost": 0,
+        "grants": { "magic": 1 },
+        "requires": []
+      },
+      "firecraft": {
+        "name": "Firecraft",
+        "description": "Unlocks Firebolt for single-target magical damage.",
+        "cost": 1,
+        "grantsSkill": "firebolt",
+        "requires": ["mage_basics"]
+      },
+      "field_medic": {
+        "name": "Field Medic",
+        "description": "Unlocks Mend for battlefield recovery.",
+        "cost": 1,
+        "grantsSkill": "mend",
+        "requires": ["mage_basics"]
+      },
+      "flarecraft": {
+        "name": "Flarecraft",
+        "description": "Unlocks Flare, a stronger area spell.",
+        "cost": 2,
+        "grantsSkill": "flare",
+        "requires": ["firecraft"]
+      },
+      "spirit_font": {
+        "name": "Spirit Font",
+        "description": "Increases MP and magic defense for longer battles.",
+        "cost": 2,
+        "grants": { "maxMp": 8, "magicDefense": 2 },
+        "requires": ["field_medic"]
+      }
+    }
+  }
+}

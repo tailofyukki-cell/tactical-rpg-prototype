@@ -1,0 +1,456 @@
+{
+  "startScene": "opening",
+  "scenes": {
+    "opening": {
+      "background": "stoneford_crossing",
+      "next": "town",
+      "lines": [
+        {
+          "speaker": "Nia",
+          "speakerId": "nia",
+          "portrait": "nia",
+          "text": "Smoke on the crossing. Those raiders reached the old road before us."
+        },
+        {
+          "speaker": "Rook",
+          "speakerId": "rook",
+          "portrait": "rook",
+          "text": "Then we hold here. The trees and stonework will slow their charge."
+        },
+        {
+          "speaker": "Mira",
+          "speakerId": "mira",
+          "portrait": "mira",
+          "text": "I can keep the wounded standing, but the marsh is tainted. Do not end your move there unless you must."
+        },
+        {
+          "speaker": "Iron Voss",
+          "speakerId": "boss",
+          "portrait": "boss",
+          "text": "Break their line. Take the crossing before dusk."
+        }
+      ]
+    },
+    "town_captain": {
+      "background": "stoneford_outpost",
+      "next": "town",
+      "lines": [
+        {
+          "speaker": "Captain Elric",
+          "speakerId": "elric",
+          "portrait": "rook",
+          "text": "Stoneford is a thin wall, but it is still a wall. Rest, train, and strike before the raiders gather."
+        },
+        {
+          "speaker": "Rook",
+          "speakerId": "rook",
+          "portrait": "rook",
+          "text": "Give us the route and we will keep their scouts away from the bridge."
+        }
+      ]
+    },
+    "town_sella": {
+      "background": "stoneford_outpost",
+      "next": "town",
+      "lines": [
+        {
+          "speaker": "Sella",
+          "speakerId": "sella",
+          "portrait": "mira",
+          "text": "Coin is lighter than regret. If you are heading into the woods, carry medicine and check your blades."
+        }
+      ]
+    },
+    "town_tovin": {
+      "background": "stoneford_outpost",
+      "next": "town",
+      "lines": [
+        {
+          "speaker": "Tovin",
+          "speakerId": "tovin",
+          "portrait": "nia",
+          "text": "I saw marked stones near the old road. They knew where our patrol would turn."
+        },
+        {
+          "speaker": "Nia",
+          "speakerId": "nia",
+          "portrait": "nia",
+          "text": "Then the next fight is not random. We should watch the flanks and force them through bad ground."
+        }
+      ]
+    },
+    "dungeon_old_road": {
+      "background": "stoneford_crossing",
+      "next": "battle",
+      "lines": [
+        {
+          "speaker": "Nia",
+          "speakerId": "nia",
+          "portrait": "nia",
+          "text": "Tracks split beyond the bridge. Same boots, same spacing. They are baiting us into the crossing again."
+        },
+        {
+          "speaker": "Mira",
+          "speakerId": "mira",
+          "portrait": "mira",
+          "text": "Then we choose the ground first. Keep clear of the tainted marsh and make them cross our lines."
+        }
+      ]
+    },
+    "dungeon_stone_bridge": {
+      "background": "stoneford_crossing",
+      "next": "battle",
+      "lines": [
+        { "speaker": "Rook", "speakerId": "rook", "portrait": "rook", "text": "The river leaves us one road forward. I will hold the bridge; strike past me when the line opens." },
+        { "speaker": "Nia", "speakerId": "nia", "portrait": "nia", "text": "No room for a wide flank. Timing and reach will decide this one." }
+      ]
+    },
+    "dungeon_cart_crossroads": {
+      "background": "stoneford_crossing",
+      "next": "battle",
+      "lines": [
+        { "speaker": "Nia", "speakerId": "nia", "portrait": "nia", "text": "Four roads, broken carts, and tracks on every side. They want us watching the wrong lane." },
+        { "speaker": "Mira", "speakerId": "mira", "portrait": "mira", "text": "Then we take the center carefully and use the wreckage to divide their fire." }
+      ]
+    },
+    "dungeon_thornwood": {
+      "background": "pinewood",
+      "next": "battle",
+      "lines": [
+        { "speaker": "Nia", "speakerId": "nia", "portrait": "nia", "text": "The thornwood has three usable lanes. The middle is fast, and that makes it the obvious trap." },
+        { "speaker": "Rook", "speakerId": "rook", "portrait": "rook", "text": "We pressure the center and turn one flank before they can shift support." }
+      ]
+    },
+    "dungeon_marsh_isles": {
+      "background": "sunken_ruins",
+      "next": "battle",
+      "lines": [
+        { "speaker": "Mira", "speakerId": "mira", "portrait": "mira", "text": "The stone islands are safe. Everything violet between them will drain life from anyone who lingers." },
+        { "speaker": "Nia", "speakerId": "nia", "portrait": "nia", "text": "A dangerous shortcut is still a shortcut. We use it only when the action order gives us an exit." }
+      ]
+    },
+    "dungeon_split_ruins": {
+      "background": "sunken_ruins",
+      "next": "battle",
+      "lines": [
+        { "speaker": "Mira", "speakerId": "mira", "portrait": "mira", "text": "These halls connect behind the broken walls. An enemy lost from sight may reappear on our flank." },
+        { "speaker": "Rook", "speakerId": "rook", "portrait": "rook", "text": "We choose one lane to hold and one to turn. No one crosses the center alone." }
+      ]
+    },
+    "dungeon_ash_courtyard": {
+      "background": "sunken_ruins",
+      "next": "battle",
+      "lines": [
+        { "speaker": "Iron Voss", "speakerId": "boss", "portrait": "boss", "text": "You crossed road, wood, and marsh to reach my walls. Now learn what those walls were built to do." },
+        { "speaker": "Rook", "speakerId": "rook", "portrait": "rook", "text": "Clear one wing, then the yard. We end this without letting the keep split us apart." }
+      ]
+    },
+    "chapter_01_intro": {
+      "background": "stoneford_outpost",
+      "next": "battle",
+      "lines": [
+        {
+          "speaker": "Captain Elric",
+          "speakerId": "elric",
+          "portrait": "rook",
+          "text": "Chapter 1. The old road is the first line. Clear the raiders before they turn a raid into a siege."
+        },
+        {
+          "speaker": "Nia",
+          "speakerId": "nia",
+          "portrait": "nia",
+          "text": "Small field, few enemies. We move fast, learn their habits, and come back with proof."
+        }
+      ]
+    },
+    "dungeon_pinewood": {
+      "background": "pinewood",
+      "next": "battle",
+      "lines": [
+        {
+          "speaker": "Tovin",
+          "speakerId": "tovin",
+          "portrait": "nia",
+          "text": "The pine line bends toward the crossing. Their archers used those trunks to vanish after each shot."
+        },
+        {
+          "speaker": "Nia",
+          "speakerId": "nia",
+          "portrait": "nia",
+          "text": "Then we do not chase blindly. Watch the lanes, cut their sight, and make the forest work for us too."
+        },
+        {
+          "speaker": "Rook",
+          "speakerId": "rook",
+          "portrait": "rook",
+          "text": "Stay in pairs. If they want an ambush, deny them a lonely target."
+        }
+      ]
+    },
+    "chapter_02_intro": {
+      "background": "pinewood",
+      "next": "battle",
+      "lines": [
+        {
+          "speaker": "Tovin",
+          "speakerId": "tovin",
+          "portrait": "nia",
+          "text": "Chapter 2. The markers continue into the pinewood. Whoever placed them expected our patrol route."
+        },
+        {
+          "speaker": "Rook",
+          "speakerId": "rook",
+          "portrait": "rook",
+          "text": "Medium field, normal enemy count. Stay in formation and use the forest before they use it against us."
+        }
+      ]
+    },
+    "dungeon_sunken_ruins": {
+      "background": "sunken_ruins",
+      "next": "battle",
+      "lines": [
+        {
+          "speaker": "Mira",
+          "speakerId": "mira",
+          "portrait": "mira",
+          "text": "The old stones are soaked through. That violet water is not natural, and it will punish anyone who lingers."
+        },
+        {
+          "speaker": "Rook",
+          "speakerId": "rook",
+          "portrait": "rook",
+          "text": "A hard route, then. We move cleanly, finish quickly, and leave no one stranded in the marsh."
+        },
+        {
+          "speaker": "Iron Voss",
+          "speakerId": "boss",
+          "portrait": "boss",
+          "text": "Come deeper, bridge-keepers. The ruins remember how to bury soldiers."
+        }
+      ]
+    },
+    "chapter_03_intro": {
+      "background": "sunken_ruins",
+      "next": "battle",
+      "lines": [
+        {
+          "speaker": "Mira",
+          "speakerId": "mira",
+          "portrait": "mira",
+          "text": "Chapter 3. The trail ends in the sunken stones. The marsh around them is fouled by more than rot."
+        },
+        {
+          "speaker": "Iron Voss",
+          "speakerId": "boss",
+          "portrait": "boss",
+          "text": "Large field, many enemies. If you want the truth behind Stoneford, come take it from the ruin floor."
+        }
+      ]
+    },
+    "chapter_04_intro": {
+      "background": "stoneford_crossing",
+      "next": "battle",
+      "lines": [
+        { "speaker": "Sella", "speakerId": "sella", "portrait": "mira", "text": "Chapter 4. A supply wagon is missing on the cart road, and Stoneford cannot hold without those crates." },
+        { "speaker": "Rook", "speakerId": "rook", "portrait": "rook", "text": "Small field, few enemies. We strike quickly and bring back what the outpost needs." }
+      ]
+    },
+    "chapter_05_intro": {
+      "background": "pinewood",
+      "next": "battle",
+      "lines": [
+        { "speaker": "Nia", "speakerId": "nia", "portrait": "nia", "text": "Chapter 5. Their scouts finally carry a banner mark. This is no loose band of thieves." },
+        { "speaker": "Rook", "speakerId": "rook", "portrait": "rook", "text": "Medium field, normal enemy count. Break the scouts before they report our strength." }
+      ]
+    },
+    "chapter_06_intro": {
+      "background": "sunken_ruins",
+      "next": "battle",
+      "lines": [
+        { "speaker": "Mira", "speakerId": "mira", "portrait": "mira", "text": "Chapter 6. Lanterns are burning under the marsh water. Someone is using the ruins to signal." },
+        { "speaker": "Nia", "speakerId": "nia", "portrait": "nia", "text": "Large field, many enemies. We cut the signal before their next column moves." }
+      ]
+    },
+    "chapter_07_intro": {
+      "background": "stoneford_crossing",
+      "next": "battle",
+      "lines": [
+        { "speaker": "Tovin", "speakerId": "tovin", "portrait": "nia", "text": "Chapter 7. I owe Stoneford more than a warning. I know a shortcut the enemy thinks is hidden." },
+        { "speaker": "Mira", "speakerId": "mira", "portrait": "mira", "text": "Small field, few enemies. A narrow path can save time or become a trap." }
+      ]
+    },
+    "chapter_08_intro": {
+      "background": "pinewood",
+      "next": "battle",
+      "lines": [
+        { "speaker": "Captain Elric", "speakerId": "elric", "portrait": "rook", "text": "Chapter 8. A flanking column is moving through the pinewood. If it reaches us, the gate falls." },
+        { "speaker": "Rook", "speakerId": "rook", "portrait": "rook", "text": "Medium field, normal enemy count. Hold formation and stop them before the trees open." }
+      ]
+    },
+    "chapter_09_intro": {
+      "background": "sunken_ruins",
+      "next": "battle",
+      "lines": [
+        { "speaker": "Mira", "speakerId": "mira", "portrait": "mira", "text": "Chapter 9. These ruin marks are names, not directions. Someone important is moving behind the raids." },
+        { "speaker": "Nia", "speakerId": "nia", "portrait": "nia", "text": "Large field, many enemies. We take the marker and force their commander into the open." }
+      ]
+    },
+    "chapter_10_intro": {
+      "background": "stoneford_crossing",
+      "next": "battle",
+      "lines": [
+        { "speaker": "Captain Elric", "speakerId": "elric", "portrait": "rook", "text": "Chapter 10. They mean to burn Stoneford bridge before dawn." },
+        { "speaker": "Rook", "speakerId": "rook", "portrait": "rook", "text": "Midpoint battle. Small field, few enemies, but every turn matters." }
+      ]
+    },
+    "chapter_11_intro": {
+      "background": "pinewood",
+      "next": "battle",
+      "lines": [
+        { "speaker": "Nia", "speakerId": "nia", "portrait": "nia", "text": "Chapter 11. Captured orders name the ash road. This invasion has a timetable." },
+        { "speaker": "Mira", "speakerId": "mira", "portrait": "mira", "text": "Medium field, normal enemy count. If we delay them here, the schedule breaks." }
+      ]
+    },
+    "chapter_12_intro": {
+      "background": "sunken_ruins",
+      "next": "battle",
+      "lines": [
+        { "speaker": "Mira", "speakerId": "mira", "portrait": "mira", "text": "Chapter 12. The drowned gate is opening. The reserve force was hidden beneath the ruins." },
+        { "speaker": "Rook", "speakerId": "rook", "portrait": "rook", "text": "Large field, many enemies. We close the gate by force." }
+      ]
+    },
+    "chapter_13_intro": {
+      "background": "stoneford_crossing",
+      "next": "battle",
+      "lines": [
+        { "speaker": "Tovin", "speakerId": "tovin", "portrait": "nia", "text": "Chapter 13. A courier rides at dusk with orders for the rear guard." },
+        { "speaker": "Nia", "speakerId": "nia", "portrait": "nia", "text": "Small field, few enemies. We intercept before the message leaves the road." }
+      ]
+    },
+    "chapter_14_intro": {
+      "background": "pinewood",
+      "next": "battle",
+      "lines": [
+        { "speaker": "Rook", "speakerId": "rook", "portrait": "rook", "text": "Chapter 14. The pinewood is no longer cover. They shaped it into a trap." },
+        { "speaker": "Nia", "speakerId": "nia", "portrait": "nia", "text": "Medium field, normal enemy count. Keep sight lines clean and do not chase shadows." }
+      ]
+    },
+    "chapter_15_intro": {
+      "background": "sunken_ruins",
+      "next": "battle",
+      "lines": [
+        { "speaker": "Iron Voss", "speakerId": "boss", "portrait": "boss", "text": "Chapter 15. You have been useful. Every road you defended showed me what Stoneford fears." },
+        { "speaker": "Rook", "speakerId": "rook", "portrait": "rook", "text": "Boss operation. Large field, many enemies. This time we break Voss's guard." }
+      ]
+    },
+    "chapter_16_intro": {
+      "background": "stoneford_crossing",
+      "next": "battle",
+      "lines": [
+        { "speaker": "Captain Elric", "speakerId": "elric", "portrait": "rook", "text": "Chapter 16. Stoneford is done waiting. Lead the counterattack down the road." },
+        { "speaker": "Mira", "speakerId": "mira", "portrait": "mira", "text": "Small field, few enemies. A clean victory here gives the outpost room to breathe." }
+      ]
+    },
+    "chapter_17_intro": {
+      "background": "pinewood",
+      "next": "battle",
+      "lines": [
+        { "speaker": "Nia", "speakerId": "nia", "portrait": "nia", "text": "Chapter 17. The pines are black before dawn. The enemy thinks darkness belongs to them." },
+        { "speaker": "Rook", "speakerId": "rook", "portrait": "rook", "text": "Medium field, normal enemy count. Stay close until the ambush breaks." }
+      ]
+    },
+    "chapter_18_intro": {
+      "background": "sunken_ruins",
+      "next": "battle",
+      "lines": [
+        { "speaker": "Mira", "speakerId": "mira", "portrait": "mira", "text": "Chapter 18. False lights across the marsh are trying to split us." },
+        { "speaker": "Nia", "speakerId": "nia", "portrait": "nia", "text": "Large field, many enemies. Ignore the bait and keep the action order under control." }
+      ]
+    },
+    "chapter_19_intro": {
+      "background": "stoneford_crossing",
+      "next": "battle",
+      "lines": [
+        { "speaker": "Captain Elric", "speakerId": "elric", "portrait": "rook", "text": "Chapter 19. The last column is moving on the old road. If it joins the main force, Stoneford is surrounded." },
+        { "speaker": "Rook", "speakerId": "rook", "portrait": "rook", "text": "Small field, few enemies. One clean interception before the final banner falls." }
+      ]
+    },
+    "chapter_20_intro": {
+      "background": "sunken_ruins",
+      "next": "battle",
+      "lines": [
+        { "speaker": "Iron Voss", "speakerId": "boss", "portrait": "boss", "text": "Chapter 20. No banner, no witness, no retreat. Stoneford ends at dawn." },
+        { "speaker": "Nia", "speakerId": "nia", "portrait": "nia", "text": "Final battle. Large field, many enemies. We finish the road here." }
+      ]
+    },
+    "final_ending": {
+      "background": "stoneford_outpost",
+      "next": "town",
+      "lines": [
+        { "speaker": "Rook", "speakerId": "rook", "portrait": "rook", "text": "The hidden command is broken. Stoneford still stands." },
+        { "speaker": "Nia", "speakerId": "nia", "portrait": "nia", "text": "Twenty battles for one road. Tomorrow, people will cross it without counting the trees for archers." },
+        { "speaker": "Mira", "speakerId": "mira", "portrait": "mira", "text": "Ending reached. The five-hour campaign spine is now present from Chapter 1 to Chapter 20." }
+      ]
+    },
+    "prototype_ending": {
+      "background": "stoneford_outpost",
+      "next": "town",
+      "lines": [
+        {
+          "speaker": "Nia",
+          "speakerId": "nia",
+          "portrait": "nia",
+          "text": "The marker was not a bandit's sign. It belongs to an army that has not shown its banner yet."
+        },
+        {
+          "speaker": "Rook",
+          "speakerId": "rook",
+          "portrait": "rook",
+          "text": "Then Stoneford was only the opening move. We have seventeen battles left before this road is safe."
+        },
+        {
+          "speaker": "Mira",
+          "speakerId": "mira",
+          "portrait": "mira",
+          "text": "Prototype ending reached. The full plan is twenty chapters, each built around a short story scene and a tactical battle."
+        }
+      ]
+    },
+    "victory": {
+      "background": "stoneford_crossing",
+      "next": "result",
+      "lines": [
+        {
+          "speaker": "Rook",
+          "speakerId": "rook",
+          "portrait": "rook",
+          "text": "The road is ours. Count the wounded and secure the crates."
+        },
+        {
+          "speaker": "Nia",
+          "speakerId": "nia",
+          "portrait": "nia",
+          "text": "They were testing our route. Someone knew we were coming."
+        },
+        {
+          "speaker": "Mira",
+          "speakerId": "mira",
+          "portrait": "mira",
+          "text": "Then this was not the last fight. We should move before another banner arrives."
+        }
+      ]
+    },
+    "defeat": {
+      "background": "stoneford_crossing",
+      "next": "result",
+      "lines": [
+        {
+          "speaker": "Iron Voss",
+          "speakerId": "boss",
+          "portrait": "boss",
+          "text": "The crossing falls. Leave none able to carry word."
+        }
+      ]
+    }
+  }
+}

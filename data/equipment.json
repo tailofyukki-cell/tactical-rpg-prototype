@@ -1,0 +1,36 @@
+{
+  "armor": {
+    "linen_robes": {
+      "name": "Linen Robes",
+      "slot": "armor",
+      "bonuses": { "maxMp": 4, "magicDefense": 1 }
+    },
+    "leather_vest": {
+      "name": "Leather Vest",
+      "slot": "armor",
+      "bonuses": { "maxHp": 4, "defense": 1, "evasion": 1 }
+    },
+    "guard_mail": {
+      "name": "Guard Mail",
+      "slot": "armor",
+      "bonuses": { "maxHp": 8, "defense": 2, "evasion": -1 }
+    }
+  },
+  "accessories": {
+    "swift_charm": {
+      "name": "Swift Charm",
+      "slot": "accessory",
+      "bonuses": { "speed": 1, "evasion": 2 }
+    },
+    "focus_ring": {
+      "name": "Focus Ring",
+      "slot": "accessory",
+      "bonuses": { "magic": 1, "accuracy": 2 }
+    },
+    "iron_badge": {
+      "name": "Iron Badge",
+      "slot": "accessory",
+      "bonuses": { "attack": 1, "defense": 1 }
+    }
+  }
+}

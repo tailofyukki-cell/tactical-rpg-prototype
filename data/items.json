@@ -1,0 +1,3 @@
+{
+  "potion": { "name": "Potion", "type": "recoverHp", "power": 30, "range": [1, 1], "quantity": 5 }
+}

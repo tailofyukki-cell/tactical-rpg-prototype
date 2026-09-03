@@ -1,0 +1,44 @@
+{
+  "name": "Stoneford Crossing",
+  "width": 15,
+  "height": 10,
+  "victory": "routEnemies",
+  "defeat": "routAllies",
+  "briefing": {
+    "title": "Stoneford Crossing",
+    "objective": "Defeat all enemies.",
+    "defeat": "All allies defeated.",
+    "tips": [
+      "Use forests for defense and evasion.",
+      "Ranged units can be blocked by crates and rocks.",
+      "Poison marsh tiles deal damage after a unit acts.",
+      "Attack from the side or back for better damage."
+    ]
+  },
+  "tiles": [
+    "pppppffffpppppp",
+    "pppppffffpppssp",
+    "pppppppppppsssp",
+    "pppwwpppwwwpppp",
+    "pppwwpppwwwpppp",
+    "pppppppffffpppp",
+    "ppppssppfffpppp",
+    "ppppssppppmmppp",
+    "pppppppppffffpp",
+    "pppppppppffffpp"
+  ],
+  "legend": {
+    "p": "plain",
+    "f": "forest",
+    "s": "stone",
+    "w": "wall",
+    "m": "poison"
+  },
+  "obstacles": [
+    { "x": 6, "y": 2, "type": "crate", "blocksMove": true, "blocksLine": true },
+    { "x": 7, "y": 2, "type": "crate", "blocksMove": true, "blocksLine": true },
+    { "x": 5, "y": 5, "type": "tree", "blocksMove": true, "blocksLine": true },
+    { "x": 9, "y": 6, "type": "rock", "blocksMove": true, "blocksLine": true },
+    { "x": 10, "y": 6, "type": "rock", "blocksMove": true, "blocksLine": true }
+  ]
+}

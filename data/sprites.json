@@ -1,0 +1,41 @@
+{
+  "defaults": {
+    "frameWidth": 32,
+    "frameHeight": 32,
+    "drawWidth": 42,
+    "drawHeight": 42,
+    "idleFrame": 0,
+    "directions": {
+      "down": 0,
+      "left": 1,
+      "right": 2,
+      "up": 3
+    }
+  },
+  "units": {
+    "rook": {
+      "path": "assets/characters/rook.png",
+      "fallbackColor": "#4f9cf9"
+    },
+    "nia": {
+      "path": "assets/characters/nia.png",
+      "fallbackColor": "#4f9cf9"
+    },
+    "mira": {
+      "path": "assets/characters/mira.png",
+      "fallbackColor": "#4f9cf9"
+    },
+    "raider": {
+      "path": "assets/characters/raider.png",
+      "fallbackColor": "#d75c4c"
+    },
+    "cutpurse": {
+      "path": "assets/characters/cutpurse.png",
+      "fallbackColor": "#d75c4c"
+    },
+    "ash_shaman": {
+      "path": "assets/characters/ash_shaman.png",
+      "fallbackColor": "#d75c4c"
+    }
+  }
+}

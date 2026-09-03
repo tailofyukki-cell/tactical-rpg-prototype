@@ -1,0 +1,25 @@
+{
+  "defaults": {
+    "imagePath": null,
+    "accentColor": "#f0c15a",
+    "textColor": "#fff7e6"
+  },
+  "portraits": {
+    "rook": {
+      "imagePath": "assets/portraits/rook.png",
+      "accentColor": "#8cc6ff"
+    },
+    "nia": {
+      "imagePath": "assets/portraits/nia.png",
+      "accentColor": "#7ef0b4"
+    },
+    "mira": {
+      "imagePath": "assets/portraits/mira.png",
+      "accentColor": "#d7a7ff"
+    },
+    "boss": {
+      "imagePath": "assets/portraits/boss.png",
+      "accentColor": "#ff5757"
+    }
+  }
+}

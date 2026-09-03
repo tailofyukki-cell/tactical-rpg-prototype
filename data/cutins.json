@@ -1,0 +1,39 @@
+{
+  "defaults": {
+    "durationMs": 850,
+    "bandColor": "rgba(20, 18, 16, 0.92)",
+    "accentColor": "#f0c15a",
+    "textColor": "#fff7e6",
+    "imagePath": null
+  },
+  "units": {
+    "rook": {
+      "accentColor": "#8cc6ff",
+      "imagePath": "assets/cutins/rook.png"
+    },
+    "nia": {
+      "accentColor": "#7ef0b4",
+      "imagePath": "assets/cutins/nia.png"
+    },
+    "mira": {
+      "accentColor": "#d7a7ff",
+      "imagePath": "assets/cutins/mira.png"
+    },
+    "raider": {
+      "accentColor": "#ff856f",
+      "imagePath": "assets/cutins/raider.png"
+    },
+    "cutpurse": {
+      "accentColor": "#ffb36b",
+      "imagePath": "assets/cutins/cutpurse.png"
+    },
+    "ash_shaman": {
+      "accentColor": "#c994ff",
+      "imagePath": "assets/cutins/ash_shaman.png"
+    },
+    "boss": {
+      "accentColor": "#ff5757",
+      "imagePath": "assets/cutins/boss.png"
+    }
+  }
+}

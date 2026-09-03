@@ -1,0 +1,342 @@
+{
+  "old_road_small": {
+    "name": "Old Road Skirmish",
+    "sizeLabel": "Small",
+    "width": 11,
+    "height": 8,
+    "victory": "routEnemies",
+    "defeat": "routAllies",
+    "briefing": {
+      "title": "Old Road Skirmish",
+      "objective": "Defeat all enemies.",
+      "defeat": "All allies defeated.",
+      "tips": [
+        "This is a compact map with few enemies.",
+        "Engagement starts quickly, so protect Mira from early pressure.",
+        "Side and back attacks are easier to set up near the center crates."
+      ]
+    },
+    "tiles": [
+      "ppppffffppp",
+      "ppppffffppp",
+      "ppppppppppp",
+      "ppwwpppwwpp",
+      "ppwwpppwwpp",
+      "ppppfffpppp",
+      "ppsspppmmpp",
+      "ppppppffffp"
+    ],
+    "legend": {
+      "p": "plain",
+      "f": "forest",
+      "s": "stone",
+      "w": "wall",
+      "m": "poison"
+    },
+    "obstacles": [
+      { "x": 5, "y": 2, "type": "crate", "blocksMove": true, "blocksLine": true },
+      { "x": 6, "y": 2, "type": "crate", "blocksMove": true, "blocksLine": true },
+      { "x": 4, "y": 5, "type": "tree", "blocksMove": true, "blocksLine": true }
+    ]
+  },
+  "pinewood_medium": {
+    "name": "Pinewood Ambush",
+    "sizeLabel": "Medium",
+    "width": 13,
+    "height": 9,
+    "victory": "routEnemies",
+    "defeat": "routAllies",
+    "briefing": {
+      "title": "Pinewood Ambush",
+      "objective": "Defeat all enemies.",
+      "defeat": "All allies defeated.",
+      "tips": [
+        "This medium map has a normal enemy count.",
+        "Forest tiles improve defense and evasion.",
+        "Use obstacles to interrupt bow line of sight."
+      ]
+    },
+    "tiles": [
+      "pppfffffppppp",
+      "pppfffffppssp",
+      "ppppppppppssp",
+      "ppwwwpppwwppp",
+      "ppwwwpppwwppp",
+      "pppppffffpppp",
+      "ppssppfffpppp",
+      "ppssppppmpppp",
+      "pppppfffffppp"
+    ],
+    "legend": {
+      "p": "plain",
+      "f": "forest",
+      "s": "stone",
+      "w": "wall",
+      "m": "poison"
+    },
+    "obstacles": [
+      { "x": 5, "y": 2, "type": "tree", "blocksMove": true, "blocksLine": true },
+      { "x": 6, "y": 2, "type": "tree", "blocksMove": true, "blocksLine": true },
+      { "x": 8, "y": 6, "type": "rock", "blocksMove": true, "blocksLine": true },
+      { "x": 9, "y": 6, "type": "rock", "blocksMove": true, "blocksLine": true }
+    ]
+  },
+  "sunken_ruins_large": {
+    "name": "Sunken Ruins",
+    "sizeLabel": "Large",
+    "width": 15,
+    "height": 10,
+    "victory": "routEnemies",
+    "defeat": "routAllies",
+    "briefing": {
+      "title": "Sunken Ruins",
+      "objective": "Defeat all enemies.",
+      "defeat": "All allies defeated.",
+      "tips": [
+        "This large map has many enemies.",
+        "Poison marsh tiles deal damage after a unit acts.",
+        "Use Wait to control the speed-based action order.",
+        "Do not overextend into the ruin center without a follow-up action."
+      ]
+    },
+    "tiles": [
+      "pppppffffpppppp",
+      "pppppffffpppssp",
+      "pppppppppppsssp",
+      "pppwwpppwwwpppp",
+      "pppwwpppwwwpppp",
+      "pppppppffffpppp",
+      "ppppssppfffpppp",
+      "ppppssppppmmppp",
+      "pppppppppffffpp",
+      "pppppppppffffpp"
+    ],
+    "legend": {
+      "p": "plain",
+      "f": "forest",
+      "s": "stone",
+      "w": "wall",
+      "m": "poison"
+    },
+    "obstacles": [
+      { "x": 6, "y": 2, "type": "crate", "blocksMove": true, "blocksLine": true },
+      { "x": 7, "y": 2, "type": "crate", "blocksMove": true, "blocksLine": true },
+      { "x": 5, "y": 5, "type": "tree", "blocksMove": true, "blocksLine": true },
+      { "x": 9, "y": 6, "type": "rock", "blocksMove": true, "blocksLine": true },
+      { "x": 10, "y": 6, "type": "rock", "blocksMove": true, "blocksLine": true }
+    ]
+  },
+  "stone_bridge_small": {
+    "name": "Stone Bridge Clash",
+    "sizeLabel": "Small",
+    "width": 11,
+    "height": 8,
+    "victory": "routEnemies",
+    "defeat": "routAllies",
+    "briefing": {
+      "title": "Stone Bridge Clash",
+      "objective": "Defeat all enemies.",
+      "defeat": "All allies defeated.",
+      "tips": [
+        "The bridge creates a narrow central front.",
+        "Ranged attacks can cross water, but units cannot.",
+        "Control the open lane before committing your mage."
+      ]
+    },
+    "tiles": [
+      "ppwwwwwwwpp",
+      "ppwwwwwwwpp",
+      "ppssssssspp",
+      "sssssssssss",
+      "sssssssssss",
+      "ppssssssspp",
+      "ppwwwwwwwpp",
+      "ppwwwwwwwpp"
+    ],
+    "legend": { "p": "plain", "s": "stone", "w": "water" },
+    "obstacles": [
+      { "x": 5, "y": 3, "type": "crate", "blocksMove": true, "blocksLine": true },
+      { "x": 7, "y": 4, "type": "crate", "blocksMove": true, "blocksLine": true }
+    ]
+  },
+  "cart_crossroads_medium": {
+    "name": "Broken Cart Crossroads",
+    "sizeLabel": "Medium",
+    "width": 13,
+    "height": 9,
+    "victory": "routEnemies",
+    "defeat": "routAllies",
+    "briefing": {
+      "title": "Broken Cart Crossroads",
+      "objective": "Defeat all enemies.",
+      "defeat": "All allies defeated.",
+      "tips": [
+        "Four approach lanes meet in the exposed center.",
+        "Broken carts block movement and line of sight.",
+        "Split briefly to flank, then regroup before enemy reinforcements converge."
+      ]
+    },
+    "tiles": [
+      "ffffpppppffff",
+      "fffpppspppfff",
+      "ppppppppppppp",
+      "pppwwwpwwwppp",
+      "sssssssssssss",
+      "pppwwwpwwwppp",
+      "ppppppppppppp",
+      "fffpppspppfff",
+      "ffffpppppffff"
+    ],
+    "legend": { "p": "plain", "f": "forest", "s": "stone", "w": "wall" },
+    "obstacles": [
+      { "x": 5, "y": 4, "type": "crate", "blocksMove": true, "blocksLine": true },
+      { "x": 7, "y": 4, "type": "crate", "blocksMove": true, "blocksLine": true },
+      { "x": 6, "y": 2, "type": "rock", "blocksMove": true, "blocksLine": true }
+    ]
+  },
+  "thornwood_lanes_large": {
+    "name": "Thornwood Lanes",
+    "sizeLabel": "Large",
+    "width": 15,
+    "height": 10,
+    "victory": "routEnemies",
+    "defeat": "routAllies",
+    "briefing": {
+      "title": "Thornwood Lanes",
+      "objective": "Defeat all enemies.",
+      "defeat": "All allies defeated.",
+      "tips": [
+        "Dense forest slows movement and rewards careful lane choice.",
+        "The open middle lane is fast but exposed to archers.",
+        "Use the upper and lower paths to threaten side attacks."
+      ]
+    },
+    "tiles": [
+      "ffffpppppppffff",
+      "fffppfffffppfff",
+      "ffpppfffffpppff",
+      "ppppppppppppppp",
+      "pppwwwpppwwwppp",
+      "ppppppppppppppp",
+      "ffpppfffffpppff",
+      "fffppfffffppfff",
+      "ffffpppppppffff",
+      "fffffpppppfffff"
+    ],
+    "legend": { "p": "plain", "f": "forest", "w": "wall" },
+    "obstacles": [
+      { "x": 6, "y": 3, "type": "tree", "blocksMove": true, "blocksLine": true },
+      { "x": 8, "y": 5, "type": "tree", "blocksMove": true, "blocksLine": true },
+      { "x": 11, "y": 3, "type": "tree", "blocksMove": true, "blocksLine": true },
+      { "x": 3, "y": 5, "type": "tree", "blocksMove": true, "blocksLine": true }
+    ]
+  },
+  "marsh_isles_large": {
+    "name": "Marshlight Isles",
+    "sizeLabel": "Large",
+    "width": 15,
+    "height": 10,
+    "victory": "routEnemies",
+    "defeat": "routAllies",
+    "briefing": {
+      "title": "Marshlight Isles",
+      "objective": "Defeat all enemies.",
+      "defeat": "All allies defeated.",
+      "tips": [
+        "Safe stone islands are surrounded by damaging marsh.",
+        "Crossing poison ground may be faster than taking the outer route.",
+        "Do not let enemies pin wounded allies on a hazardous tile."
+      ]
+    },
+    "tiles": [
+      "ppppwwwwwpppppp",
+      "pppmmmmmmmppppp",
+      "ppmmsssssmmpppp",
+      "ppmmsssssmmpppp",
+      "ppppssspppppppp",
+      "ppppsssmmmmpppp",
+      "ppmmsssssmmpppp",
+      "ppmmsssssmmpppp",
+      "pppmmmmmmmppppp",
+      "pppppwwwwwppppp"
+    ],
+    "legend": { "p": "plain", "s": "stone", "m": "poison", "w": "water" },
+    "obstacles": [
+      { "x": 5, "y": 2, "type": "rock", "blocksMove": true, "blocksLine": true },
+      { "x": 7, "y": 7, "type": "rock", "blocksMove": true, "blocksLine": true },
+      { "x": 10, "y": 5, "type": "tree", "blocksMove": true, "blocksLine": true }
+    ]
+  },
+  "split_ruins_medium": {
+    "name": "Split Hall Ruins",
+    "sizeLabel": "Medium",
+    "width": 13,
+    "height": 9,
+    "victory": "routEnemies",
+    "defeat": "routAllies",
+    "briefing": {
+      "title": "Split Hall Ruins",
+      "objective": "Defeat all enemies.",
+      "defeat": "All allies defeated.",
+      "tips": [
+        "Ruined walls divide the field into three connected lanes.",
+        "The center is quickest; side rooms offer safer flanking routes.",
+        "Watch for ranged enemies firing through the central opening."
+      ]
+    },
+    "tiles": [
+      "pppppwwwppppp",
+      "ppssswwwssspp",
+      "ppssspppssspp",
+      "ppwwspppswwpp",
+      "ppppppppppppp",
+      "ppwwspppswwpp",
+      "ppssspppssspp",
+      "ppssswwwssspp",
+      "pppppwwwppppp"
+    ],
+    "legend": { "p": "plain", "s": "stone", "w": "wall" },
+    "obstacles": [
+      { "x": 6, "y": 2, "type": "crate", "blocksMove": true, "blocksLine": true },
+      { "x": 6, "y": 6, "type": "crate", "blocksMove": true, "blocksLine": true },
+      { "x": 9, "y": 4, "type": "rock", "blocksMove": true, "blocksLine": true }
+    ]
+  },
+  "ash_courtyard_large": {
+    "name": "Ashen Keep Courtyard",
+    "sizeLabel": "Large",
+    "width": 15,
+    "height": 10,
+    "victory": "routEnemies",
+    "defeat": "routAllies",
+    "briefing": {
+      "title": "Ashen Keep Courtyard",
+      "objective": "Defeat all enemies.",
+      "defeat": "All allies defeated.",
+      "tips": [
+        "Outer walls force both armies into the keep's internal lanes.",
+        "Stone ground favors durable defenders.",
+        "Clear one wing before the enemy can surround the central yard."
+      ]
+    },
+    "tiles": [
+      "wwwwwwwwwwwwwww",
+      "wpppppssspppppw",
+      "wpwwwpssswwwppw",
+      "wpppppssspppppw",
+      "wssssspppsssssw",
+      "wssssspppsssssw",
+      "wpppppssspppppw",
+      "wpwwwpssswwwppw",
+      "wpppppssspppppw",
+      "wwwwwwwwwwwwwww"
+    ],
+    "legend": { "p": "plain", "s": "stone", "w": "wall" },
+    "obstacles": [
+      { "x": 6, "y": 4, "type": "pillar", "blocksMove": true, "blocksLine": true },
+      { "x": 8, "y": 5, "type": "pillar", "blocksMove": true, "blocksLine": true },
+      { "x": 5, "y": 1, "type": "crate", "blocksMove": true, "blocksLine": true },
+      { "x": 9, "y": 8, "type": "crate", "blocksMove": true, "blocksLine": true }
+    ]
+  }
+}

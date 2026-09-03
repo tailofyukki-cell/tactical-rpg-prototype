@@ -1,0 +1,8 @@
+{
+  "plain": { "name": "Plain", "moveCost": 1, "defense": 0, "evasion": 0, "passable": true, "blocksLine": false, "color": "#5d8f46" },
+  "forest": { "name": "Forest", "moveCost": 2, "defense": 2, "evasion": 10, "passable": true, "blocksLine": false, "color": "#2f6d45" },
+  "stone": { "name": "Stone", "moveCost": 1, "defense": 1, "evasion": 0, "passable": true, "blocksLine": false, "color": "#6f7370" },
+  "poison": { "name": "Poison Marsh", "moveCost": 2, "defense": 0, "evasion": -5, "hazardDamage": 5, "passable": true, "blocksLine": false, "color": "#635093" },
+  "water": { "name": "Water", "moveCost": 99, "defense": 0, "evasion": -10, "passable": false, "blocksLine": false, "color": "#2e668a" },
+  "wall": { "name": "Wall", "moveCost": 99, "defense": 0, "evasion": 0, "passable": false, "blocksLine": true, "color": "#3d3b39" }
+}

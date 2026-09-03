@@ -1,0 +1,42 @@
+{
+  "stoneford_supply": {
+    "name": "Stoneford Supply",
+    "stock": [
+      {
+        "type": "item",
+        "id": "potion",
+        "price": 30,
+        "quantity": 1,
+        "description": "Restores HP in battle."
+      },
+      {
+        "type": "weapon",
+        "id": "ash_spear",
+        "price": 120,
+        "quantity": 1,
+        "description": "A flexible 1-2 range weapon for Guard or Scout."
+      },
+      {
+        "type": "weapon",
+        "id": "ember_rod",
+        "price": 150,
+        "quantity": 1,
+        "description": "A magic-focused staff for Mira."
+      },
+      {
+        "type": "armor",
+        "id": "leather_vest",
+        "price": 90,
+        "quantity": 1,
+        "description": "Light armor with HP, defense, and evasion."
+      },
+      {
+        "type": "accessory",
+        "id": "focus_ring",
+        "price": 110,
+        "quantity": 1,
+        "description": "Raises magic and accuracy."
+      }
+    ]
+  }
+}
