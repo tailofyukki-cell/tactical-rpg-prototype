@@ -124,23 +124,23 @@ Large map route. Many enemies. Best for poison marsh pressure, boss presence, si
 | 1 | Smoke at Stoneford | Old Road | Secure the crossing and introduce planned raid clues. |
 | 2 | Needles in the Pines | Pinewood | Follow markers into a controlled ambush. |
 | 3 | The Sunken Marker | Sunken Ruins | Reveal the ruin marker and first arc mystery. |
-| 4 | Broken Cart Road | Old Road | Tie tactics to supply loss and outpost survival. |
-| 5 | The First Banner | Pinewood | Confirm the enemy is organized. |
-| 6 | Lanterns Underwater | Sunken Ruins | Introduce ruin signals under the marsh. |
-| 7 | Scout's Debt | Old Road | Let Tovin guide a dangerous shortcut. |
+| 4 | Broken Cart Road | Cart Crossroads | Tie tactics to supply loss and outpost survival. |
+| 5 | The First Banner | Thornwood Lanes | Confirm the enemy is organized. |
+| 6 | Lanterns Underwater | Marshlight Isles | Introduce ruin signals under the marsh. |
+| 7 | Scout's Debt | Stone Bridge | Let Tovin guide a dangerous shortcut. |
 | 8 | Pinewood Countermarch | Pinewood | Stop a flanking column. |
-| 9 | Names in the Stone | Sunken Ruins | Connect ruin names to enemy command. |
-| 10 | Bridgefire | Old Road | Midpoint defense of Stoneford bridge. |
-| 11 | Ash Orders | Pinewood | Reveal invasion timetable. |
-| 12 | The Drowned Gate | Sunken Ruins | Enemy reserve force emerges. |
+| 9 | Names in the Stone | Split Hall Ruins | Connect ruin names to enemy command. |
+| 10 | Bridgefire | Stone Bridge | Midpoint defense of Stoneford bridge. |
+| 11 | Ash Orders | Thornwood Lanes | Reveal invasion timetable. |
+| 12 | The Drowned Gate | Split Hall Ruins | Enemy reserve force emerges. |
 | 13 | Courier at Dusk | Old Road | Intercept orders before they spread. |
-| 14 | Green Shade Trap | Pinewood | Turn forest tactics against a prepared trap. |
-| 15 | Voss at the Ruins | Sunken Ruins | First major boss operation. |
-| 16 | Stoneford Strikes Back | Old Road | Begin the counterattack. |
+| 14 | Green Shade Trap | Thornwood Lanes | Turn forest tactics against a prepared trap. |
+| 15 | Voss at the Ruins | Ashen Keep Courtyard | First major boss operation. |
+| 16 | Stoneford Strikes Back | Stone Bridge | Begin the counterattack. |
 | 17 | Pines Before Dawn | Pinewood | Final approach through ambush terrain. |
-| 18 | Marsh of False Lights | Sunken Ruins | Enemy tries to split the party with signals. |
-| 19 | Last Road to the Banner | Old Road | Stop the last column before the final battle. |
-| 20 | Bannerless Dawn | Sunken Ruins | End the Stoneford campaign. |
+| 18 | Marsh of False Lights | Marshlight Isles | Enemy tries to split the party with signals. |
+| 19 | Last Road to the Banner | Cart Crossroads | Stop the last column before the final battle. |
+| 20 | Bannerless Dawn | Ashen Keep Courtyard | End the Stoneford campaign. |
 
 ## Dialogue Rules
 
