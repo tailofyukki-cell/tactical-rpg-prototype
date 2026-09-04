@@ -22,7 +22,7 @@
 ### 現在のプレイ規模
 
 - 味方: 3人
-- 敵タイプ: 6種類
+- 敵タイプ: 12種類（基本6種、色違い上位6種）
 - 戦闘マップ: 9種類
 - 章構成: 20章
 - セーブスロット: 3個
@@ -166,6 +166,19 @@ flowchart LR
 | Caster | 魔法射程を使って攻撃 |
 | Healer | 負傷した味方の回復を優先 |
 | Boss | 範囲攻撃と撃破可能な対象を重視 |
+
+### 4.10 色違い上位敵
+
+上位敵は既存AIを再利用し、色、能力値、武器、使用スキルで役割を強化しています。序盤3マップは基本敵のみとし、以降の高難度ルートへ段階的に配置します。
+
+| 上位敵 | 色 | 元の役割 | 主な強化 |
+| --- | --- | --- | --- |
+| Crimson Raider | 深紅 | Melee | HP、攻撃、Power Slash |
+| Iron Lancer | 鉄灰 | Melee | 防御、槍射程、Piercing Line |
+| Blackfeather | 黒 | Ranged | 長弓、命中、素早さ |
+| Ember Shaman | 橙 | Caster | 魔力、MP、範囲魔法Flare |
+| Pale Mender | 白 | Healer | 回復力、MP、魔法防御 |
+| Ash Champion | 灰紫 | Boss | HP、攻防、範囲攻撃とPower Slash |
 
 ## 5. プレイヤーパーティ
 

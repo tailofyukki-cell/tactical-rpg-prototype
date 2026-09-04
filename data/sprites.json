@@ -36,6 +36,30 @@
     "ash_shaman": {
       "path": "assets/characters/ash_shaman.png",
       "fallbackColor": "#d75c4c"
+    },
+    "raider_crimson": {
+      "path": "assets/characters/raider_crimson.png",
+      "fallbackColor": "#b82f3f"
+    },
+    "raider_iron": {
+      "path": "assets/characters/raider_iron.png",
+      "fallbackColor": "#66707c"
+    },
+    "cutpurse_black": {
+      "path": "assets/characters/cutpurse_black.png",
+      "fallbackColor": "#302f3d"
+    },
+    "ash_shaman_ember": {
+      "path": "assets/characters/ash_shaman_ember.png",
+      "fallbackColor": "#d8762f"
+    },
+    "ash_shaman_pale": {
+      "path": "assets/characters/ash_shaman_pale.png",
+      "fallbackColor": "#d7d0bb"
+    },
+    "raider_ash": {
+      "path": "assets/characters/raider_ash.png",
+      "fallbackColor": "#785f72"
     }
   }
 }

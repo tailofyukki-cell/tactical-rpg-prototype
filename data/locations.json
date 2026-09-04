@@ -130,7 +130,7 @@
           },
           "enemies": [
             { "id": "e_raider_1", "x": 10, "y": 3, "facing": "left" },
-            { "id": "e_raider_2", "x": 10, "y": 4, "facing": "left" },
+            { "id": "e_iron_lancer", "x": 10, "y": 4, "facing": "left" },
             { "id": "e_archer", "x": 9, "y": 5, "facing": "left" },
             { "id": "e_shaman", "x": 8, "y": 4, "facing": "left" }
           ],
@@ -155,7 +155,7 @@
             "a_mage": { "x": 1, "y": 6, "facing": "right" }
           },
           "enemies": [
-            { "id": "e_raider_1", "x": 12, "y": 2, "facing": "left" },
+            { "id": "e_crimson_raider", "x": 12, "y": 2, "facing": "left" },
             { "id": "e_raider_2", "x": 12, "y": 4, "facing": "left" },
             { "id": "e_archer", "x": 11, "y": 6, "facing": "left" },
             { "id": "e_mender", "x": 10, "y": 4, "facing": "left" }
@@ -182,8 +182,8 @@
           },
           "enemies": [
             { "id": "e_raider_1", "x": 14, "y": 3, "facing": "left" },
-            { "id": "e_raider_2", "x": 14, "y": 5, "facing": "left" },
-            { "id": "e_archer", "x": 13, "y": 3, "facing": "left" },
+            { "id": "e_crimson_raider", "x": 14, "y": 5, "facing": "left" },
+            { "id": "e_blackfeather", "x": 13, "y": 3, "facing": "left" },
             { "id": "e_shaman", "x": 13, "y": 5, "facing": "left" },
             { "id": "e_mender", "x": 12, "y": 9, "facing": "left" }
           ],
@@ -211,8 +211,8 @@
             { "id": "e_raider_1", "x": 14, "y": 3, "facing": "left" },
             { "id": "e_raider_2", "x": 14, "y": 5, "facing": "left" },
             { "id": "e_archer", "x": 13, "y": 4, "facing": "left" },
-            { "id": "e_shaman", "x": 13, "y": 7, "facing": "left" },
-            { "id": "e_mender", "x": 13, "y": 1, "facing": "left" },
+            { "id": "e_ember_shaman", "x": 13, "y": 7, "facing": "left" },
+            { "id": "e_pale_mender", "x": 13, "y": 1, "facing": "left" },
             { "id": "e_boss", "x": 12, "y": 8, "facing": "left" }
           ],
           "tips": [
@@ -237,9 +237,9 @@
           },
           "enemies": [
             { "id": "e_raider_1", "x": 12, "y": 2, "facing": "left" },
-            { "id": "e_raider_2", "x": 12, "y": 6, "facing": "left" },
-            { "id": "e_archer", "x": 12, "y": 4, "facing": "left" },
-            { "id": "e_shaman", "x": 11, "y": 4, "facing": "left" },
+            { "id": "e_iron_lancer", "x": 12, "y": 6, "facing": "left" },
+            { "id": "e_blackfeather", "x": 12, "y": 4, "facing": "left" },
+            { "id": "e_ember_shaman", "x": 11, "y": 4, "facing": "left" },
             { "id": "e_mender", "x": 10, "y": 8, "facing": "left" }
           ],
           "tips": [
@@ -263,12 +263,12 @@
             "a_mage": { "x": 2, "y": 4, "facing": "right" }
           },
           "enemies": [
-            { "id": "e_raider_1", "x": 13, "y": 3, "facing": "left" },
-            { "id": "e_raider_2", "x": 13, "y": 5, "facing": "left" },
-            { "id": "e_archer", "x": 12, "y": 4, "facing": "left" },
-            { "id": "e_shaman", "x": 13, "y": 6, "facing": "left" },
-            { "id": "e_mender", "x": 11, "y": 8, "facing": "left" },
-            { "id": "e_boss", "x": 13, "y": 1, "facing": "left" }
+            { "id": "e_crimson_raider", "x": 13, "y": 3, "facing": "left" },
+            { "id": "e_iron_lancer", "x": 13, "y": 5, "facing": "left" },
+            { "id": "e_blackfeather", "x": 12, "y": 4, "facing": "left" },
+            { "id": "e_ember_shaman", "x": 13, "y": 6, "facing": "left" },
+            { "id": "e_pale_mender", "x": 11, "y": 8, "facing": "left" },
+            { "id": "e_ash_champion", "x": 13, "y": 1, "facing": "left" }
           ],
           "tips": [
             "Do not enter both wings without enough support to hold them.",

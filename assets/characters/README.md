@@ -21,5 +21,13 @@ Current paths:
 - `raider.png`
 - `cutpurse.png`
 - `ash_shaman.png`
+- `raider_crimson.png`
+- `raider_iron.png`
+- `cutpurse_black.png`
+- `ash_shaman_ember.png`
+- `ash_shaman_pale.png`
+- `raider_ash.png`
+
+The last six files are color-variant enemy sprites. They currently fall back to distinct placeholder colors, so each PNG can be added later without changing game logic or enemy data.
 
 If a file is missing, the game automatically draws the built-in placeholder sprite. You can change frame size, draw size, filename, or row mapping in `data/sprites.json` without editing `src/game.js`.
