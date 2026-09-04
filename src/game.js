@@ -95,7 +95,16 @@ async function boot() {
   spriteAssets = await loadImageAssets(data.sprites.units);
   cutinAssets = await loadImageAssets(data.cutins.units);
   portraitAssets = await loadImageAssets(data.portraits.portraits);
-  startScenario(data.scenario.startScene || "opening");
+  const params = new URLSearchParams(window.location.search);
+  const previewRoute = params.get("route");
+  const routeExists = townData().dungeons.some(route => route.id === previewRoute);
+  if (previewRoute && routeExists) {
+    selectedDungeonId = previewRoute;
+    startNewBattle();
+    if (params.get("mode") === "battle") beginBattle();
+  } else {
+    startScenario(data.scenario.startScene || "opening");
+  }
   requestAnimationFrame(draw);
 }
 

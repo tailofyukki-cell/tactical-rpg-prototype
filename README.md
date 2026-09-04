@@ -13,6 +13,13 @@ npm start
 
 ブラウザで `http://127.0.0.1:4174/` を開きます。Windows では `start-windows.bat` をダブルクリックしても起動できます。
 
+特定ルートを画面確認するときは、開発用URLでブリーフィングまたは戦闘画面を直接開けます。
+
+```text
+http://127.0.0.1:4174/index.html?route=ash_courtyard
+http://127.0.0.1:4174/index.html?route=ash_courtyard&mode=battle
+```
+
 ## 簡易パッケージ作成
 
 ```powershell
