@@ -941,7 +941,7 @@ async function useAction(attacker, target, action) {
 }
 
 function playCutin(unit, skill) {
-  const unitCutin = cutinAssets[unit.sprite] || {};
+  const unitCutin = cutinAssets[unit.cutin || unit.sprite] || {};
   const def = { ...data.cutins.defaults, ...unitCutin };
   const duration = def.durationMs || data.cutins.defaults.durationMs;
   cutin = {

@@ -1,5 +1,7 @@
 # Cut-in Format
 
+日本語の統合手順は [画像素材 差し替えガイド](image-replacement-guide.md) を参照してください。
+
 Skill and magic cut-ins are data-driven.
 
 Runtime files:

@@ -4,6 +4,8 @@ Windows 向け 2D タクティカル RPG の戦闘プロトタイプです。味
 
 現在のゲーム全体設計と実装状況は [現状設計書](docs/current-design.md) にまとめています。
 
+キャラクター、立ち絵、カットインの素材仕様と交換方法は [画像素材 差し替えガイド](docs/image-replacement-guide.md) を参照してください。
+
 ## 起動
 
 ```powershell
